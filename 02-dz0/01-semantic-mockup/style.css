@@ -1,0 +1,54 @@
+body{
+	font-family: Arial, sans-serif;
+	color: white;
+	margin: 0;
+}
+header{
+	background-color: red;
+	text-align: center;
+}
+nav{
+	background-color: orange;
+	font-size: 1.5rem;
+	padding: 0.7rem;
+}
+main{
+	background-color: green;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+article{
+	background-color: blue;
+	margin: 0.5rem;
+	padding-left: 0.5rem;
+}
+footer{
+	background-color: purple;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+}
+h1{
+	margin:0;
+	font-size: 3rem;
+}
+h2{
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	padding-top: 0.5rem;
+}
+ul, ol{
+	margin: 0;
+	padding-bottom: 1.5rem;
+}
+a{
+	color: white;
+	margin: 1rem;
+	vertical-align: middle;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	color: blue;
+}
