@@ -2,7 +2,7 @@
 	width: 730px;
 }
 
-.accordion__section{
+.accordion-section{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -13,23 +13,23 @@
 	margin-bottom: 8px;
 }
 
-.accordion__section:last-child{
+.accordion-section:last-child{
 	margin-bottom: 0;
 }
 
-.accordion__section[open]{
+.accordion-section[open]{
 	padding-bottom: 32px;
 }
 
-.section__title{
+.accordion-section__title{
 
 }
 
-.section__title::marker{
+.accordion-section__title::marker{
 	content: none;
 }
 
-.section__content{
+.accordion-section__content{
 	margin-top: 16px;
 	color: var(--grey-4);
 }
