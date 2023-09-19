@@ -16,6 +16,10 @@ html {
 /* Sections
    ========================================================================== */
 
+footer{
+  box-sizing: border-box;
+}
+
 /**
  * Remove the margin in all browsers.
  */

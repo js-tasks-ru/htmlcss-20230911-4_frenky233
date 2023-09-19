@@ -1,6 +1,5 @@
 .header__title{
 	font-size: 3rem;
-	display: table-cell;
-	vertical-align: middle;
+	padding: 5rem 0 5rem;
 	margin: 0;
 }

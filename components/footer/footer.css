@@ -1,7 +1,5 @@
 .footer{
-	box-sizing: border-box;
-	height: 300px;
 	font-size: 20px;
-	padding-block: 5rem;
+	padding: 5rem 0 2rem;
 	text-align: center;
 }

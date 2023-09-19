@@ -5,7 +5,8 @@
 @import '../../components/header/__title/header__title.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
-@import '../../components/footer/__body/footer__body.css';
+@import '../../components/footer/__inner/footer__inner.css';
+@import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
 
 :root {

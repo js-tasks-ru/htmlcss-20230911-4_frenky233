@@ -1,7 +1,5 @@
 .main{
 	background-color: var(--grey-1);
-	margin-inline: -15rem;
-	padding-inline: 15rem;
 	height: 1036px;
 	border-block: 1px solid var(--grey-2);
 }
