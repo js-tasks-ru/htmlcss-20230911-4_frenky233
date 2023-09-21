@@ -1,0 +1,5 @@
+.main{
+	background-color: var(--grey-1);
+	height: 1036px;
+	border-block: 1px solid var(--grey-2);
+}
