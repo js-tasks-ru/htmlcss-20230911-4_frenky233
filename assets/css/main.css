@@ -9,6 +9,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
+@import '../../components/font-styles/font-md.css';
 
 :root {
     --white: #ffffff;
