@@ -27,8 +27,14 @@
     --error: var(--red);
     --success: var(--blue);
 
-    --primary: var(--blue);
+    --primary: var(--blue-2);
     --secondary: var(--purple);
+
+    --text-primary: var(--black);
+    --text-secondary: var(--grey-4);
+    --text-third: var(--grey-2);
+
+    --url-primary: var(--blue-2);
 }
 
 body {
