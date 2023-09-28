@@ -1,5 +1,3 @@
-@import '../../03-lection1/01-button/button.css';
-
 .modal{
 	display: none;
 	position: fixed;
@@ -26,6 +24,7 @@
 	right: 12px;
 	width: 16px;
 	height: 16px;
+	cursor: pointer;
 }
 
 .modal__title{

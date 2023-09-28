@@ -10,6 +10,7 @@
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
 @import '../../components/font-styles/font-md.css';
+@import '../../03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
