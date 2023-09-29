@@ -1,0 +1,8 @@
+.main__content{
+	display: grid;
+	grid-template-columns: repeat(3, calc(33.3333% - 20px));
+    grid-template-rows: repeat(2, minmax(367px, auto));
+    grid-gap: 30px;
+	padding-top: 68px;
+	padding-bottom: 204px;
+}
