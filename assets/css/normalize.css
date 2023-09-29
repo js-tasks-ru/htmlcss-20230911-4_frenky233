@@ -16,7 +16,7 @@ html {
 /* Sections
    ========================================================================== */
 
-footer{
+footer, div{
   box-sizing: border-box;
 }
 

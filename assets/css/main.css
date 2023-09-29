@@ -9,6 +9,8 @@
 @import '../../components/footer/footer.css';
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
+@import '../../components/font-styles/font-md.css';
+@import '../../03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
@@ -23,6 +25,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
 
     --error: var(--red);
     --success: var(--blue);
@@ -32,6 +35,8 @@
 
     --text-primary: var(--black);
     --text-secondary: var(--grey-4);
+    --text-third: var(--grey-2);
+
 
     --url-primary: var(--blue-2);
 }
