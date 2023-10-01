@@ -6,13 +6,21 @@
 @import '../../components/header/header.css';
 @import '../../components/header/__title/header__title.css';
 @import '../../components/main/main.css';
+@import '../../components/main/__content/main__content.css';
 @import '../../components/footer/footer.css';
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
+@import '../../components/card/card.css';
+@import '../../components/card/__title/card__title.css';
+@import '../../components/card/__lower/card__lower.css';
+@import '../../components/container/container.css';
 @import '../../components/font-styles/font-md.css';
 @import '../../03-lection1/01-button/button.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
+    --container-width: 1110px;
+
     --white: #ffffff;
     --black: #212429;
     --pink: #F784AD;
@@ -43,4 +51,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
 }
