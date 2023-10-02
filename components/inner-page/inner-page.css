@@ -1,0 +1,6 @@
+.inner-page{
+	display: grid;
+	grid-template-columns: 229px 1fr;
+	margin-top: 36px;
+	height: 100%;
+}
