@@ -1,0 +1,5 @@
+.header__logo{
+	display: flex;
+	fill: var(--logo-primary);
+	margin: 0;
+}
