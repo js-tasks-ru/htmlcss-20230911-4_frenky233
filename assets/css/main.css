@@ -1,20 +1,32 @@
 @import 'normalize.css';
+@import 'typography.css';
 
 @import '../fonts/fonts.css';
 
 @import '../../components/page/page.css';
+@import '../../components/page/__title/page__title.css';
 @import '../../components/header/header.css';
-@import '../../components/header/__title/header__title.css';
+@import '../../components/header/__inner/header__inner.css';
+@import '../../components/header/__logo/header__logo.css';
 @import '../../components/main/main.css';
 @import '../../components/main/__content/main__content.css';
+@import '../../components/main/__wrapper/main__wrapper.css';
 @import '../../components/footer/footer.css';
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
+@import '../../components/footer/_sm/footer_sm.css';
+@import '../../components/footer/_bg-secondary/footer_bg-secondary.css';
 @import '../../components/card/card.css';
 @import '../../components/card/__title/card__title.css';
-@import '../../components/card/__lower/card__lower.css';
 @import '../../components/container/container.css';
-@import '../../components/font-styles/font-md.css';
+@import '../../components/component-page/__main/component-page__main.css';
+@import '../../components/inner-page/inner-page.css';
+@import '../../components/inner-page/__title/inner-page__title.css';
+@import '../../components/inner-page/__content/inner-page__content.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/sidebar/__title/sidebar__title.css';
+@import '../../components/sidebar/__menu/sidebar__menu.css';
+@import '../../components/sidebar/__item/sidebar__item.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 
@@ -29,6 +41,7 @@
     --blue-1: #374FC7;
     --blue-2: #4263EB;
     --red: #F03D3E;
+    --orange: #D84910;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -38,15 +51,22 @@
     --error: var(--red);
     --success: var(--blue);
 
+    --bg-primary: var(--white);
+    --bg-scondary: var(--grey-1);
+
     --primary: var(--blue-2);
     --secondary: var(--purple);
 
     --text-primary: var(--black);
     --text-secondary: var(--grey-4);
     --text-third: var(--grey-2);
-
+    --text-fourth: var(--grey-3);
 
     --url-primary: var(--blue-2);
+
+    --notificaiton: var(--orange);
+
+    --logo-primary: var(--black);
 }
 
 body {

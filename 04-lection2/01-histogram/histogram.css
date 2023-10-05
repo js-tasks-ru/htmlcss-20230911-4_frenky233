@@ -6,8 +6,9 @@
 	padding: 16px 24px 24px;
 }
 
-.histogram_prewiew{
+.histogram_preview{
 	width: 100%;
+	pointer-events: none;
 }
 
 .histogram__header{
