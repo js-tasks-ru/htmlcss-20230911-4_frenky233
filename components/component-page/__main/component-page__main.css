@@ -1,4 +1,10 @@
 .component-page__main{
-	border-top: 1px solid var(--grey-2);;
-	background-color: var(--bg-scondary);
+	background-color: var(--bg-primary);
+}
+
+@media all and (min-width: 768px){
+	.component-page__main{
+		border-top: 1px solid var(--grey-2);
+		background-color: var(--bg-scondary);
+	}
 }

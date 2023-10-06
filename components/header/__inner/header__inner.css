@@ -1,4 +1,10 @@
 .header__inner{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+}
+
+@media all and (min-width: 768px){
+	.header__inner{
+		justify-content: space-between;
+	}
 }

@@ -1,8 +1,17 @@
 .footer__title{
-	font-size: 38px;
+	font-size: 24px;
 	font-style: normal;
-	font-weight: 500;
-	line-height: 48px;
-	margin-bottom: 32px;
+	font-weight: 400;
+	line-height: 38px;
+	margin-bottom: 24px;
 	margin-top: 0;
+}
+
+@media all and (min-width: 768px){
+	.footer__title{
+		margin-bottom: 32px;
+		font-size: 38px;
+		font-weight: 500;
+		line-height: 48px;
+	}
 }

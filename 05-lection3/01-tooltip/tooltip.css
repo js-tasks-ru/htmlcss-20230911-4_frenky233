@@ -1,10 +1,27 @@
 .tooltip{
 	position: relative;
 	display: inline-block;
+	transform: translateY(40px);
+}
+
+@media all and (min-width: 768px){
+	.tooltip{
+		transform: none;
+	}
+}
+
+.tooltip_preview{
+	pointer-events: none;
+}
+
+.tooltip_preview .tooltip__bubble{
+	display: block;
 }
 
 .tooltip__icon{
-
+	width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .tooltip__icon:hover ~ .tooltip__bubble{

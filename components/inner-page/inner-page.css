@@ -1,6 +1,12 @@
 .inner-page{
-	display: grid;
-	grid-template-columns: 229px 1fr;
-	margin-top: 36px;
+	margin-top: 32px;
 	height: 100%;
+}
+
+@media all and (min-width: 768px){
+	.inner-page{
+		display: grid;
+		grid-template-columns: 229px 1fr;
+		margin-top: 36px;
+	}
 }

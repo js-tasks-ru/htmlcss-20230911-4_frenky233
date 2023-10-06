@@ -1,7 +1,37 @@
 .calendar{
-	border: 1px solid var(--grey-3);
 	border-radius: 8px;
-	padding: 28px 26px 32px;
+	padding: 14px 13px 16px;
+}
+
+.calendar_preview{
+	width: 100%;
+}
+
+@media all and (min-width: 768px){
+	.calendar{
+		padding: 28px 26px 32px;
+		border: 1px solid var(--grey-3);
+	}
+
+	.calendar_preview{
+		max-width: 180px;
+	    width: 180px;
+	    min-width: 75px;
+	}
+}
+
+
+.calendar_preview .calendar__title{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.calendar_preview .calendar__item{
+	font-size: 9px;
+}
+
+.calendar_preview .calendar__item_day{
+	margin-bottom: 12px;
 }
 
 .calendar__title{

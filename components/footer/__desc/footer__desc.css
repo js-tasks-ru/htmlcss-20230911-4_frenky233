@@ -1,5 +1,11 @@
 .footer__desc{
-	max-width: 40%;
 	display: inline-block;
 	margin: 0;
+	font-size: 1rem;
+}
+
+@media all and (min-width: 768px){
+	.footer__desc{
+		max-width: 40%;
+	}
 }

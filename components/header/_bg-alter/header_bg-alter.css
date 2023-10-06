@@ -1,0 +1,9 @@
+.header_bg-alter{
+	background-color: var(--bg-third);
+}
+
+@media all and (min-width: 768px){
+	.header_bg-alter{
+		background-color: var(--bg-primary);
+	}
+}

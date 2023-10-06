@@ -1,0 +1,9 @@
+.footer_bg-alter{
+	background-color: var(--bg-primary);
+}
+
+@media all and (min-width: 768px){
+	.footer_bg-alter{
+		background-color: var(--bg-secondary);
+	}
+}
