@@ -1,4 +1,10 @@
 .inner-page__title{
 	margin: 0;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
+}
+
+@media all and (min-width: 768px){
+	.inner-page__title{
+		margin-bottom: 24px;
+	}
 }

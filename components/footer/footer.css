@@ -1,5 +1,10 @@
 .footer{
-	padding-top: 72px;
-	padding-bottom: 136px;
+	padding: 2rem 0;
 	text-align: center;
+}
+
+@media all and (min-width: 768px){
+	.footer{
+		padding: 72px 0 136px;
+	}
 }
