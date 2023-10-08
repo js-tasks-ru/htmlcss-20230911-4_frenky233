@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<!-- Страница чекбокса -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
-
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
+                        <use href="../../assets/images/svg-sprite/svg-sprite.svg#check"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__title font-md font-Inter secondary">Default</div>
+            </div>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" checked class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
+                        <use href="../../assets/images/svg-sprite/svg-sprite.svg#check"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__title font-md font-Inter secondary">Checked</div>
+            </div>
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" disabled checked class="checkbox__input">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
+                        <use href="../../assets/images/svg-sprite/svg-sprite.svg#check"></use>
+                    </svg>
+                </div>
+                <div class="checkbox__title font-md font-Inter secondary">Disabled</div>
+            </div>
+        </label>
     </body>
 </html>
