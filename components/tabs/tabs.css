@@ -5,13 +5,27 @@
 .tabs > input{
 	position: absolute;
 	opacity: 0;
-	right: 250vw;
+	left: -100vw;
 }
 
 #all-tab:checked ~ .tabs__scroller label[for="all-tab"],
 #element-tab:checked ~ .tabs__scroller label[for="element-tab"],
 #container-tab:checked ~ .tabs__scroller label[for="container-tab"],
 #template-tab:checked ~ .tabs__scroller label[for="template-tab"]{
+	color: var(--text-primary) !important;
+}
+
+#all-tab:focus ~ .tabs__scroller label[for="all-tab"], 
+#element-tab:focus ~ .tabs__scroller label[for="element-tab"],
+#container-tab:focus ~ .tabs__scroller label[for="container-tab"],
+#template-tab:focus ~ .tabs__scroller label[for="template-tab"]{
+	text-decoration: underline;
+}
+
+#all-tab:hover ~ .tabs__scroller label[for="all-tab"], 
+#element-tab:hover ~ .tabs__scroller label[for="element-tab"],
+#container-tab:hover ~ .tabs__scroller label[for="container-tab"],
+#template-tab:hover ~ .tabs__scroller label[for="template-tab"]{
 	color: var(--text-primary) !important;
 }
 
@@ -30,12 +44,5 @@
 #element-tab:hover ~ .tabs__scroller label[for="element-tab"] div,
 #container-tab:hover ~ .tabs__scroller label[for="container-tab"] div,
 #template-tab:hover ~ .tabs__scroller label[for="template-tab"] div{
-	opacity: 1;
-}
-
-#all-tab:focus ~ .tabs__scroller label[for="all-tab"], 
-#element-tab:focus ~ .tabs__scroller label[for="element-tab"],
-#container-tab:focus ~ .tabs__scroller label[for="container-tab"],
-#template-tab:focus ~ .tabs__scroller label[for="template-tab"]{
-	text-decoration: underline;
+	transform: scaleX(1);
 }
