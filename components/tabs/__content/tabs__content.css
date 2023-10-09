@@ -1,4 +1,4 @@
-.main__content{
+.tabs__content{
 	display: grid;
     grid-template-rows: repeat(auto-fill, minmax(210px, auto));
     grid-template-columns: repeat(2, calc(50% - 8px));
@@ -7,10 +7,10 @@
 }
 
 @media all and (min-width: 768px){
-	.main__content{
+	.tabs__content{
 		grid-template-rows: repeat(auto-fill, minmax(367px, auto));
 		grid-template-columns: repeat(3, calc(33.3333% - 20px));
-		padding-top: 68px 0 204px; 
+		padding: 68px 0 204px; 
 		grid-gap: 30px;
 	}
 }

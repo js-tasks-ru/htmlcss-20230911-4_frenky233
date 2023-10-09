@@ -1,0 +1,41 @@
+.tabs{
+	
+}
+
+.tabs > input{
+	position: absolute;
+	opacity: 0;
+	right: 250vw;
+}
+
+#all-tab:checked ~ .tabs__scroller label[for="all-tab"],
+#element-tab:checked ~ .tabs__scroller label[for="element-tab"],
+#container-tab:checked ~ .tabs__scroller label[for="container-tab"],
+#template-tab:checked ~ .tabs__scroller label[for="template-tab"]{
+	color: var(--text-primary) !important;
+}
+
+#all-tab:checked ~ .tabs__wrapper .tabs__page_all-tab,
+#element-tab:checked ~ .tabs__wrapper .tabs__page_element-tab,
+#container-tab:checked ~ .tabs__wrapper .tabs__page_container-tab,
+#template-tab:checked ~ .tabs__wrapper .tabs__page_template-tab{
+	display: block;
+}
+
+#all-tab:checked ~ .tabs__scroller label[for="all-tab"] div, 
+#element-tab:checked ~ .tabs__scroller label[for="element-tab"] div,
+#container-tab:checked ~ .tabs__scroller label[for="container-tab"] div,
+#template-tab:checked ~ .tabs__scroller label[for="template-tab"] div,
+#all-tab:hover ~ .tabs__scroller label[for="all-tab"] div, 
+#element-tab:hover ~ .tabs__scroller label[for="element-tab"] div,
+#container-tab:hover ~ .tabs__scroller label[for="container-tab"] div,
+#template-tab:hover ~ .tabs__scroller label[for="template-tab"] div{
+	opacity: 1;
+}
+
+#all-tab:focus ~ .tabs__scroller label[for="all-tab"], 
+#element-tab:focus ~ .tabs__scroller label[for="element-tab"],
+#container-tab:focus ~ .tabs__scroller label[for="container-tab"],
+#template-tab:focus ~ .tabs__scroller label[for="template-tab"]{
+	text-decoration: underline;
+}

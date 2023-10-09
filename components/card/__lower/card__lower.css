@@ -3,9 +3,16 @@
 	padding: 12px 10px 10px;
 }
 
+.card__lower p{
+	text-align: center;
+	line-height: normal;
+	margin: 0;
+}
+
 @media all and (min-width: 768px){
 	.card__lower{
 		margin-top: 1.5rem;
 		border-top: none;
+		gap: 6px;
 	}
 }
