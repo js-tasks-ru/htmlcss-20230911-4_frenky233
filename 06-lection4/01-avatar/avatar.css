@@ -1,8 +1,6 @@
 .avatar{
-	
-}
-
-.avatar__wrapper{
+	width: 102px;
+	height: 102px;
 	border-radius: 50%;
 	overflow: hidden;
 }
