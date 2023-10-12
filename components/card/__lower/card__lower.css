@@ -1,12 +1,7 @@
 .card__lower{
 	border-top: 1px solid var(--grey-2);
 	padding: 12px 10px 10px;
-}
-
-.card__lower p{
 	text-align: center;
-	line-height: normal;
-	margin: 0;
 }
 
 @media all and (min-width: 768px){

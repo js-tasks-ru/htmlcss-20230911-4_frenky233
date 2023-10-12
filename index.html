@@ -30,28 +30,24 @@
                     <h1 class="main__title">Reusable component library</h1>
                 </div>
                 <div class="tabs">
-                    <input type="radio" id="all-tab" name="tabs" checked>
-                    <input type="radio" id="element-tab" name="tabs">
-                    <input type="radio" id="container-tab" name="tabs">
-                    <input type="radio" id="template-tab" name="tabs">
+                    <input class="tabs__input tabs__input_all" type="radio" id="all-tab" name="tabs" checked>
+                    <input class="tabs__input tabs__input_elements" type="radio" id="element-tab" name="tabs">
+                    <input class="tabs__input tabs__input_containers" type="radio" id="container-tab" name="tabs">
+                    <input class="tabs__input tabs__input_templates" type="radio" id="template-tab" name="tabs">
                     <div class="tabs__scroller">
                         <div class="container">
                             <nav class="tabs__menu">    
-                                <label class="fourth font-Inter" for="all-tab">
-                                <span>All components</span>
-                                <div></div>
+                                <label class="tabs__item tabs__item_all font-Inter" for="all-tab">
+                                All components
                                 </label>
-                                <label class="fourth font-Inter" for="element-tab">
-                                <span>Elements</span>
-                                <div></div>
+                                <label class="tabs__item tabs__item_elements font-Inter" for="element-tab">
+                                Elements
                                 </label>
-                                <label class="fourth font-Inter" for="container-tab">
-                                <span>Containers</span>
-                                <div></div>
+                                <label class="tabs__item tabs__item_containers font-Inter" for="container-tab">
+                                Containers
                                 </label>
-                                <label class="fourth font-Inter" for="template-tab">
-                                <span>Templates</span>
-                                <div></div>
+                                <label class="tabs__item tabs__item_templates font-Inter" for="template-tab">
+                                Templates
                                 </label>
                             </nav>
                         </div>
