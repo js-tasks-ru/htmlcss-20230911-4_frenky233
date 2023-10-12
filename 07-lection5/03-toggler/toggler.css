@@ -1,5 +1,6 @@
 .toggler{
 	display: inline-flex;
+	position: relative;
 }
 
 .toggler__input{
@@ -34,6 +35,10 @@
 	background-color: var(--grey-2);
 	border-radius: 50%;
 	transition: left .5s ease, background-color .5s ease;
+}
+
+.toggler__title{
+	color: var(--text-secondary);
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__control{
