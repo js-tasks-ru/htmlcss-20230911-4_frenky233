@@ -1,5 +1,6 @@
 .radio{
 	display: inline-flex;
+	position: relative;
 }
 
 .radio__input{
@@ -33,6 +34,10 @@
 	border-radius: 50%;
 }
 
+.radio__title{
+	color: var(--text-secondary);
+}
+
 .radio__input:checked ~ .radio__state .radio__control{
 	border-width: 2px;
 	border-color: var(--primary);
@@ -52,7 +57,7 @@
 }
 
 .radio__input:disabled ~ .radio__state .radio__title{
-	color: var(--text-third) !important;
+	color: var(--text-third);
 }
 
 .radio__input:focus ~ .radio__state .radio__title{
