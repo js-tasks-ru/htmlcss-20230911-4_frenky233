@@ -1,9 +1,10 @@
 .input-text{
 	display: inline-flex;
+	flex-direction: column;
 }
 
 .input-text_invalid .input-text__input{
-	border-color: var(--error) !important;
+	border-color: var(--error);
 }
 
 .input-text_invalid  .input-text__icon_invalid{
@@ -12,12 +13,6 @@
 
 .input-text_succes .input-text__icon_succes{
 	display: flex;
-}
-
-
-.input-text__wrapper{
-	display: flex;
-	flex-direction: column;
 }
 
 .input-text__input{
