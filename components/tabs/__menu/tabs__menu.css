@@ -2,3 +2,7 @@
 	display: inline-flex;
 	gap: 40px;
 }
+
+.tabs__menu:last-child{
+	margin-right: 16px;
+}
