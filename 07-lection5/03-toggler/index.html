@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<!-- Страница с кнопкой переключения -->
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <label class="toggler">
+            <input type="checkbox" class="toggler__input">
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__circle"></div>
+                </div>
+                <div class="toggler__title font-md font-Inter">Off</div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input type="checkbox" class="toggler__input" checked>
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__circle"></div>
+                </div>
+                <div class="toggler__title font-md font-Inter">On</div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input type="checkbox" class="toggler__input" disabled>
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__circle"></div>
+                </div>
+                <div class="toggler__title font-md font-Inter">Disabled</div>
+            </div>
+        </label>
     </body>
 </html>
