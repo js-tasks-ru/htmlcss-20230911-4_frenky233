@@ -1,0 +1,48 @@
+.tabs__input{
+	position: absolute;
+	opacity: 0;
+	left: -100vw;
+}
+
+.tabs__input_all:checked ~ .tabs__scroller .tabs__item_all,
+.tabs__input_elements:checked ~ .tabs__scroller .tabs__item_elements,
+.tabs__input_containers:checked ~ .tabs__scroller .tabs__item_containers,
+.tabs__input_templates:checked ~ .tabs__scroller .tabs__item_templates{
+	color: var(--text-primary);
+}
+
+.tabs__input_all:hover ~ .tabs__scroller .tabs__item_all:after,
+.tabs__input_elements:hover ~ .tabs__scroller .tabs__item_elements:after,
+.tabs__input_containers:hover ~ .tabs__scroller .tabs__item_containers:after,
+.tabs__input_templates:hover ~ .tabs__scroller .tabs__item_templates:after,
+.tabs__input_all:checked ~ .tabs__scroller .tabs__item_all:after,
+.tabs__input_elements:checked ~ .tabs__scroller .tabs__item_elements:after,
+.tabs__input_containers:checked ~ .tabs__scroller .tabs__item_containers:after,
+.tabs__input_templates:checked ~ .tabs__scroller .tabs__item_templates:after{
+	transform: scaleX(1);
+}
+
+.tabs__input_all:focus ~ .tabs__scroller .tabs__item_all,
+.tabs__input_elements:focus ~ .tabs__scroller .tabs__item_elements,
+.tabs__input_containers:focus ~ .tabs__scroller .tabs__item_containers,
+.tabs__input_templates:focus ~ .tabs__scroller .tabs__item_templates{
+	text-decoration: underline;
+}
+
+.tabs__input_all:hover ~ .tabs__scroller .tabs__item_all, 
+.tabs__input_elements:hover ~ .tabs__scroller .tabs__item_elements,
+.tabs__input_containers:hover ~ .tabs__scroller .tabs__item_containers,
+.tabs__input_templates:hover ~ .tabs__scroller .tabs__item_templates,
+.tabs__input_all:checked ~ .tabs__scroller .tabs__item_all,
+.tabs__input_elements:checked ~ .tabs__scroller .tabs__item_elements,
+.tabs__input_containers:checked ~ .tabs__scroller .tabs__item_containers,
+.tabs__input_templates:checked ~ .tabs__scroller .tabs__item_templates{
+	color: var(--text-primary);
+}
+
+.tabs__input_all:checked ~ .tabs__wrapper .tabs__page_all-tab,
+.tabs__input_elements:checked ~ .tabs__wrapper .tabs__page_element-tab,
+.tabs__input_containers:checked ~ .tabs__wrapper .tabs__page_container-tab,
+.tabs__input_templates:checked ~ .tabs__wrapper .tabs__page_template-tab{
+	display: block;
+}

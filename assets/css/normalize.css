@@ -24,7 +24,7 @@ footer, div{
  * Remove the margin in all browsers.
  */
 
-body {
+body, p {
   margin: 0;
 }
 

@@ -12,8 +12,14 @@
 @import '../../components/header/_bg-alter/header_bg-alter.css';
 @import '../../components/main/main.css';
 @import '../../components/main/__title/main__title.css';
-@import '../../components/main/__content/main__content.css';
-@import '../../components/main/__wrapper/main__wrapper.css';
+@import '../../components/tabs/tabs.css';
+@import '../../components/tabs/__scroller/tabs__scroller.css';
+@import '../../components/tabs/__menu/tabs__menu.css';
+@import '../../components/tabs/__page/tabs__page.css';
+@import '../../components/tabs/__content/tabs__content.css';
+@import '../../components/tabs/__wrapper/tabs__wrapper.css';
+@import '../../components/tabs/__item/tabs__item.css';
+@import '../../components/tabs/__input/tabs__input.css';
 @import '../../components/footer/footer.css';
 @import '../../components/footer/__desc/footer__desc.css';
 @import '../../components/footer/__title/footer__title.css';
