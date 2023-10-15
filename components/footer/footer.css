@@ -1,10 +1,11 @@
 .footer{
 	padding: 2rem 0;
 	text-align: center;
+	background-color: var(--bg-primary);
 }
 
 @media all and (min-width: 768px){
 	.footer{
-		padding: 72px 0 136px;
+		padding: 3rem 0; 
 	}
 }

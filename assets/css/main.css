@@ -9,6 +9,9 @@
 @import '../../components/header/header.css';
 @import '../../components/header/__inner/header__inner.css';
 @import '../../components/header/__logo/header__logo.css';
+@import '../../components/header/__mobile-menu-button/header__mobile-menu-button.css';
+@import '../../components/header/__mobile-menu-button/_open/header__mobile-menu-button_open.css';
+@import '../../components/header/__mobile-menu-button/_close/header__mobile-menu-button_close.css';
 @import '../../components/header/_bg-alter/header_bg-alter.css';
 @import '../../components/main/main.css';
 @import '../../components/main/__title/main__title.css';
@@ -38,10 +41,16 @@
 @import '../../components/sidebar/__title/sidebar__title.css';
 @import '../../components/sidebar/__menu/sidebar__menu.css';
 @import '../../components/sidebar/__item/sidebar__item.css';
+@import '../../components/sidebar/__item/_last/sidebar__item_last.css';
+@import '../../components/sidebar/__section/sidebar__section.css';
+@import '../../components/sidebar/__section/_single-element/sidebar__section_single-element.css';
+@import '../../components/mobile-menu/mobile-menu.css';
+@import '../../components/mobile-menu/__body/mobile-menu__body.css';
 @import '../../03-lection1/01-button/button.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 @import '../../05-lection3/01-tooltip/tooltip.css';
 @import '../../05-lection3/03-calendar/calendar.css';
+@import '../../07-lection5/03-toggler/toggler.css';
 
 :root {
     --container-width: 1110px;
@@ -76,12 +85,15 @@
     --text-secondary: var(--grey-4);
     --text-third: var(--grey-2);
     --text-fourth: var(--grey-3);
+    --text-active: var(--black);
 
     --url-primary: var(--blue-2);
 
     --notificaiton: var(--orange);
 
     --logo-primary: var(--black);
+
+    --card-bg: var(--white);
 }
 
 body {
@@ -91,6 +103,17 @@ body {
 html, body{
     font-size: 12px;
     height: 100%;
+}
+
+html[data-theme-dark]{
+    --logo-primary: var(--white);
+    --card-bg: var(--black);
+    --bg-primary: var(--black);
+    --bg-scondary: var(--grey-4);
+    --bg-third: var(--grey-4);
+    --text-secondary: var(--grey-2);
+    --text-active: var(--grey-2);
+    --text-primary: #ffffff75;
 }
 
 @media all and (min-width: 768px){

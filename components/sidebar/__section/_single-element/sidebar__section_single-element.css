@@ -1,0 +1,9 @@
+.sidebar__section_single-element{
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sidebar__section_single-element .sidebar__title{
+	margin: 0;
+}

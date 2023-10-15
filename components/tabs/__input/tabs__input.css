@@ -37,7 +37,7 @@
 .tabs__input_elements:checked ~ .tabs__scroller .tabs__item_elements,
 .tabs__input_containers:checked ~ .tabs__scroller .tabs__item_containers,
 .tabs__input_templates:checked ~ .tabs__scroller .tabs__item_templates{
-	color: var(--text-primary);
+	color: var(--text-active);
 }
 
 .tabs__input_all:checked ~ .tabs__wrapper .tabs__page_all-tab,

@@ -1,0 +1,7 @@
+.header__mobile-menu-button_close{
+	width: 32px;
+	height: 32px;
+	padding: 4px;
+	border-radius: 50%;
+	background-color: var(--grey-2);
+}
