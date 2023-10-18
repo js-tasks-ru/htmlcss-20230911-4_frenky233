@@ -1,8 +1,10 @@
 .tabs__menu{
 	display: inline-flex;
 	gap: 40px;
+	width: 100%;
+	overflow-x: scroll;
 }
 
-.tabs__menu:last-child{
-	margin-right: 16px;
+.tabs__menu::-webkit-scrollbar {
+    display: none;
 }

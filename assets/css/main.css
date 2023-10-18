@@ -11,7 +11,7 @@
 @import '../../components/header/__logo/header__logo.css';
 @import '../../components/header/__mobile-menu-button/header__mobile-menu-button.css';
 @import '../../components/header/__mobile-menu-button/_open/header__mobile-menu-button_open.css';
-@import '../../components/header/__mobile-menu-button/_close/header__mobile-menu-button_close.css';
+@import '../../components/header/__close/header__close.css';
 @import '../../components/header/_bg-alter/header_bg-alter.css';
 @import '../../components/main/main.css';
 @import '../../components/main/__title/main__title.css';

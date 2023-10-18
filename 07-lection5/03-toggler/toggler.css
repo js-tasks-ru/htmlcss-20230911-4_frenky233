@@ -3,12 +3,12 @@
 	position: relative;
 }
 
-.toggler__hidden{
+.toggler_hidden{
 	display: none;
 }
 
 @media all and (min-width: 768px){
-	.toggler__hidden{
+	.toggler_hidden{
 		display: inline-flex;
 	}
 }

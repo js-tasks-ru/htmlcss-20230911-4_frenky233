@@ -1,7 +1,3 @@
 .tabs__scroller{
-	overflow-x: scroll;	
-}
-
-.tabs__scroller::-webkit-scrollbar {
-    display: none;
+	overflow: hidden;	
 }
