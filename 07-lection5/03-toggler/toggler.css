@@ -52,7 +52,7 @@
 }
 
 .toggler__icon{
-	fill: var(--grey-3);
+	color: var(--grey-3);
 }
 
 .toggler__input:focus ~ .toggler__state .toggler__icon{
