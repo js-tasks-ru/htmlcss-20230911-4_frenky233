@@ -1,22 +1,22 @@
 /* colors */
 
-.primary{
+.font-color-primary{
 	color: var(--text-primary) !important;
 }
 
-.secondary{
+.font-color-secondary{
 	color: var(--text-secondary) !important;
 }
 
-.third{
+.font-color-third{
 	color: var(--text-third) !important;
 }
 
-.fourth{
+.font-color-fourth{
 	color: var(--text-fourth) !important;
 }
 
-.active{
+.font-color-active{
 	color: var(--notificaiton) !important;
 }
 

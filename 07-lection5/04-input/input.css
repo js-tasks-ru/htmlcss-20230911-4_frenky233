@@ -51,11 +51,11 @@
 }
 
 .input-text__icon_succes{
-	fill: var(--primary);
+	color: var(--primary);
 }
 
 .input-text__icon_invalid{
-	fill: var(--error);
+	color: var(--error);
 }
 
 .input-text__input:focus, .input-text__input:active{

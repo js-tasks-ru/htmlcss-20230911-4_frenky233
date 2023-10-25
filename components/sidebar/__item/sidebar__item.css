@@ -8,10 +8,6 @@
 	text-decoration: none;
 }
 
-.sidebar__item:last-child{
-	margin-top: 16px;
-}
-
 .sidebar__item:hover{
 	opacity: 0.8;
 }

@@ -1,0 +1,22 @@
+.mobile-menu{
+	position: fixed;
+	display: block;
+	z-index: 999;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: var(--bg-primary);
+	transform: translateX(-100vw);
+	transition: transform .25s ease;
+}
+
+.mobile-menu[data-open]{
+	transform: translateX(0);
+}
+
+@media all and (min-width: 768px){
+	.mobile-menu{
+		display: none;
+	}
+}

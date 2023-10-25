@@ -1,5 +1,11 @@
 .sidebar__menu{
 	display: flex;
 	flex-direction: column;
-	gap: 4px;
+	gap: 16px;
+}
+
+@media all and (min-width: 768px){
+	.sidebar__menu{
+		gap: 4px;
+	}
 }

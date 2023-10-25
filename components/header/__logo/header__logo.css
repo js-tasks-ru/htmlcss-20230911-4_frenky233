@@ -1,5 +1,5 @@
 .header__logo{
 	display: flex;
-	fill: var(--logo-primary);
+	color: var(--logo-primary);
 	margin: 0;
 }

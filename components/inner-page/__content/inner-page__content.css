@@ -1,12 +1,13 @@
 .inner-page__content{
-	
+	background-color: var(--bg-third);
+	border-radius: 12px;
+	padding: 1rem;
 }
 
 @media all and (min-width: 768px){
 	.inner-page__content{
-		border-radius: 12px;
-		background-color: var(--bg-primary);
 		filter: drop-shadow(0px 2px 4px rgba(33, 36, 41, 0.05));
+		background-color: var(--bg-primary);
 		padding: 32px 48px;
 	}
 }
